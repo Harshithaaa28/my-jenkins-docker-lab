@@ -79,3 +79,28 @@ docker stop container-4
 
 # Remove container
 docker rm container-4
+
+  ---------------------
+  sudo docker build -t myapp-image .
+
+sudo docker run -d -p 5000:5000 –name myapp-container myapp-image
+
+sudo docker images
+
+sudo docker ps
+
+sudo docker login -u harshiharshitha
+
+sudo docker tag myapp-image harshiharshitha/myapp-image:latest
+
+sudo docker push harshiharshitha/myapp-image:latest
+
+sudo apt update 
+
+sudo apt install openjdk-22-jdk -y
+
+wget https://get.jenkins.io/war-stable/latest/jenkins.war
+
+java -jar jenkins.war –httpPort=8084
+
+http://localhost:8084
